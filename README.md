@@ -10,3 +10,7 @@
 2. 機能を増やしていくうちに、素のDOM操作が厳しくなり`React`+`Vite`を後追いで導入
 
 3. 最後にホットリロードもほしくなったので`crxjs`の導入を試みる
+
+## 手順
+
+[crxjs公式のInstallation](https://crxjs.dev/guide/installation/from-scratch/)を見ながらやってみる。
