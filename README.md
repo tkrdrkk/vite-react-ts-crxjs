@@ -29,3 +29,36 @@
 ### content_scripts
 
 ソースを更新しても再実行はされない。リロードすれば更新後の処理が実行される。（従来必要だった拡張機能自体の再読み込みが不要なので十分ラク）
+
+## ディレクトリ構成
+
+`src/contexts`配下にディレクトリを切り、それぞれのエントリーポイントを`vite.config.ts`の`build.rollupOptions`と`manifest.config.ts`で指定している。
+
+```bash
+├── README.md
+├── eslint.config.js
+├── manifest.config.ts
+├── package.json
+├── public
+│   └── vite.svg
+├── src
+│   ├── contexts
+│   │   ├── action
+│   │   │   ├── App.css
+│   │   │   ├── App.tsx
+│   │   │   ├── assets
+│   │   │   │   └── react.svg
+│   │   │   ├── index.css
+│   │   │   ├── index.html
+│   │   │   └── main.tsx
+│   │   ├── background
+│   │   │   └── main.ts
+│   │   └── content-scripts
+│   │       └── main.ts
+│   └── vite-env.d.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── yarn.lock
+```
