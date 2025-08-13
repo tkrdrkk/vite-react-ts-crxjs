@@ -13,4 +13,4 @@
 
 ## 手順
 
-[crxjs公式のInstallation](https://crxjs.dev/guide/installation/from-scratch/)を見ながらやってみる。
+[crxjs公式のInstallation](https://crxjs.dev/guide/installation/from-scratch/)を見ながらやってみたらあっけなくできた。メチャクチャ便利！
